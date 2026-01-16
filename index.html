@@ -6,9 +6,14 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 <head>
-  <script src="../cdn.xtracky.com/scripts/utm-handler.js" data-token="9d153799-e8de-4f79-b7f9-31d665b71663"
-    data-click-id-param="click_id">
-  </script>
+  <script>
+  window.kwaiPixelId = "6969e3c119341eaf6c4ce581";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel-kwai.js");
+  document.head.appendChild(a);
+</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title> VIVA SORTE - Gire a Roleta!</title>
@@ -378,7 +383,7 @@
 
     document.getElementById('resgatar-premio').addEventListener('click', () => {
       const queryParams = getQueryParams();
-      const baseUrl = 'https://suapremiacao.vercel.app/';
+      const baseUrl = 'https://asuapremiacao.vercel.app/';
       const redirectUrl = queryParams ? `${baseUrl}?${queryParams}` : baseUrl;
       window.location.href = redirectUrl;
     });
